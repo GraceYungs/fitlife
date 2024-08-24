@@ -52,3 +52,38 @@ window.addEventListener("scroll", function () {
     backTopBtn.classList.remove("active");
   }
 });
+
+
+
+
+
+/**
+ * VIDEO SECTION
+ */
+
+document.addEventListener("DOMContentLoaded", function() {
+  var playButton = document.querySelector(".play-btn");
+  var modal = document.getElementById("videoModal");
+  var closeButton = document.querySelector(".close");
+  var iframe = document.getElementById("videoIframe");
+
+  playButton.addEventListener("click", function() {
+    // Set the video URL
+    iframe.src = "https://www.youtube.com/watch?v=jTpZKHX7Xok"; // Replace VIDEO_ID with the actual video ID
+    modal.style.display = "block";
+  });
+
+  closeButton.addEventListener("click", function() {
+    modal.style.display = "none";
+    iframe.src = "";
+  });
+
+  window.addEventListener("click", function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+      iframe.src = "";
+    }
+  });
+});
+
+

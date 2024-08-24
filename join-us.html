@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G-Fitness Center</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./G-Fitness Club/assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+    <!-- <link rel="preload" as="image" href="./assets/images/hero-circle-one.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-two.png">
+  <link rel="preload" as="image" href="./assets/images/heart-rate.svg">
+  <link rel="preload" as="image" href="./assets/images/calories.svg"> -->
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+<!-- 
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
+
+          <span class="span">G-Fitness Club</span>
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button
+            class="nav-close-btn"
+            aria-label="close menu"
+            data-nav-toggler
+          >
+            <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+          </button>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link active" data-nav-link>Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+            </li>
+
+            <li>
+              <a href="#class" class="navbar-link" data-nav-link>Mission</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </div>
+    </header> -->
+
+    <div>
+      <span>
+        <a href="./G-Fitness Club/index.html" class="back-to-home">
+          <img src="./G-Fitness Club/assets/images/back.png" alt="back icon" class="back-icon">
+          Back to Home
+        </a>
+      </span>
+    </div>
+    <section class="section hero-banner">
+      <form action="" method="post">
+        <h2>Registration Form</h2>
+        <div class="content">
+          <div class="input-box">
+            <label for="name">Full Name</label>
+            <input type="text" placeholder="Enter full name" name="name" required>
+          </div>
+          <div class="input-box">
+            <label for="username">Username</label>
+            <input type="text" placeholder="Enter username" name="username" required>
+          </div>
+          <div class="input-box">
+            <label for="name">email</label>
+            <input type="email" placeholder="Email" name="Enter a valid email address" required>
+          </div>
+          <div class="input-box">
+            <label for="username">Phone Number</label>
+            <input type="tel" placeholder="Enter your phone number " name="phoneNumber" required>
+          </div>
+       
+          <div class="input-box">
+            <label for="name">Password</label>
+            <input type="password" placeholder="Enter new password" name="password" required>
+          </div>
+          <div class="input-box">
+            <label for="name">ConfirmPassword</label>
+            <input type="password" placeholder="Enter username" name="ConfirmPassword" required>
+          </div>
+
+          <div class="gender-title full-width">Gender</div>
+          <div class="gender-category full-width">
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+          </div>
+        </div>
+        <div class="alert full-width">
+          <p>By clicking Sign Up, you agree to our <a href="a">Terms,</a> <a href="a">Privacy Policy,</a> and <a href="a">Cookies Policy.</a> You may receive email notifications from us and can opt out at any time.</p>
+        </div>
+        <div class="button-container full-width">
+          <button type="submit" class="btn-btnprimary" aria-label="Submit">Submit</button>
+        </div>
+      </form>
+    </section>
+    
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div
+        class="section footer-top bg-dark has-bg-image"
+        style="background-image: url('./assets/images/footer-bg.png')"
+      >
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
+
+              <span class="span">G-Fitness Center</span>
+            </a>
+
+            <p class="footer-brand-text">
+              Join The G-Fitness Revolution & Sculpt Your Dream Body Without
+              Cutting-Edge
+            </p>
+
+            <div class="wrapper">
+              <img
+                src="./assets/images/footer-clock.png"
+                width="34"
+                height="34"
+                loading="lazy"
+                alt="Clock"
+              />
+
+              <ul class="footer-brand-list">
+                <li>
+                  <p class="footer-brand-title">Monday - Friday</p>
+
+                  <p>7:00Am - 10:00Pm</p>
+                </li>
+
+                <li>
+                  <p class="footer-brand-title">Saturday - Sunday</p>
+
+                  <p>7:00Am - 2:00Pm</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title has-before">Our Links</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Classes</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Blog</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact Us</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title has-before">Contact Us</p>
+            </li>
+
+            <li class="footer-list-item">
+              <div class="icon">
+                <ion-icon name="location" aria-hidden="true"></ion-icon>
+              </div>
+
+              <address class="address footer-link">Accra-Ghana</address>
+            </li>
+
+            <li class="footer-list-item">
+              <div class="icon">
+                <ion-icon name="call" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div>
+                <a href="tel:+233 209512280" class="footer-link">+233 209512280</a>
+
+                <a href="tel:+233599233508" class="footer-link"
+                  >+233599233508</a
+                >
+              </div>
+            </li>
+
+            <li class="footer-list-item">
+              <div class="icon">
+                <ion-icon name="mail" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div>
+                <a href="mailto:info@g-fitness.com" class="footer-link"
+                  >info@g-fitness.com</a
+                >
+              </div>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title has-before">Our Newsletter</p>
+            </li>
+
+            <li>
+              <form action="" class="footer-form">
+                <input
+                  type="email"
+                  name="email_address"
+                  aria-label="email"
+                  placeholder="Email Address"
+                  required
+                  class="input-field"
+                />
+
+                <button
+                  type="submit"
+                  class="btn-btnprimary"
+                  aria-label="Submit"
+                >
+                  <ion-icon
+                    name="chevron-forward-sharp"
+                    aria-hidden="true"
+                  ></ion-icon>
+                </button>
+              </form>
+            </li>
+
+            <li>
+              <ul class="social-list">
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2024 G-fitness. All Rights Reserved By
+            <a href="#" class="copyright-link">codewithgraceyungs.</a>
+          </p>
+
+          <ul class="footer-bottom-list">
+            <li>
+              <a href="#" class="footer-bottom-link has-before"
+                >Private Policy</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="footer-bottom-link has-before"
+                >Terms & Conditions</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./G-Fitness Club/assets/js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

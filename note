@@ -1,0 +1,39 @@
+
+<section class="section blog" id="contact" aria-label="contact">
+    <div class="container">
+      <div class="row">  <div class="col-md-6">  <p class="section-subtitle">CONTACT US</p>
+          <h2 class="h2 section-title text-center">Get In Touch With Us</h2>
+  
+          <section class="contact-form">
+            <div class="form-container">
+              <form action="#" method="POST">
+                <label for="name">Fullname: </label>
+                <input type="text" placeholder="" name="name" required>
+  
+                <label for="email">Email: </label>
+                <input type="email" placeholder="" name="Enter a valid email address" required>
+  
+                <label for="message">Message: </label>
+                <textarea id="message" placeholder="" name="Enter your message" rows="6" required></textarea>
+  
+                <button type="submit" class="submit-button">Submit</button>
+              </form>
+            </div>
+          </section>
+        </div>
+  
+        <div class="col-md-6">  <h2>Contact Information</h2>
+          <address>
+            G-Fitness Center<br>
+            Ashongman Estate<br>
+            Accra,G542  R014<br><br>
+            Phone : <a href="tel:+233599233508">+233599233508</a><br>
+            Whatsap : <a href="tel:+233599233508">+233 209512280</a><br>
+            Email : <a href="mailto:info@example.com">info@g-fitness.com</a>
+          </address>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+      
